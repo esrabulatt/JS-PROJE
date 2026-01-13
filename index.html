@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dikkat Dağınıklığı Text</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+/>
+
+</head>
+<body>
+    <section>
+        <div class="focus-body"> 
+    <h1>Focus Mode  </h1>
+      
+    <div id="count"> The phone has been distracted you  <span id="changeTitleBtn"> 0 </span> times . </div>
+    <button id="buton">Click here</button>
+
+    <div id="icon-buttons">
+        <i id="birdIcon" class="fa-solid fa-dove"></i>
+        <audio id="birdAuidoPlay" controls>
+            <source src="access/birdsong.mp3" type="audio/mpeg" />
+        </audio>
+
+        <i id="rainIcon" class="fa-solid fa-cloud-rain"></i>
+        <audio id="rainAuidoPlay" controls>
+            <source src="access/rainsong.mp3" type="audio/mpeg" />
+        </audio>
+
+        <i id="fireIcon"class="fa-solid fa-fire"></i>
+        <audio id="fireAuidoPlay" controls>
+            <source src="access/firesong.mp3" type="audio/mpeg" />
+        </audio>
+    </div>
+    <input id="volume-input" type="range"/>
+   
+</div>
+</section>
+
+    <script src="script.js"></script>
+</body>
+</html>

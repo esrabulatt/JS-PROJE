@@ -1,0 +1,83 @@
+body {
+    background-image: url(/access/arkaplan6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white;
+
+}
+
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+.focus-body{
+    margin-top: 80px;
+    font-size: 25px;
+}
+
+.focus-body h1 {
+font-size: 60px;
+}
+
+.focus-body span {
+    font-weight: 900;
+    font-size: 30px;
+}
+
+audio{
+    display: none;
+}
+
+.focus-body button {
+    background-color: rgba(165, 42, 42, 0.633);
+    color:white;
+    border: 3px solid white;
+    padding: 15px 25px;
+    border-radius: 10%;
+    margin-top: 20px;
+    font-size: 20px;
+    transition: all 0.3s ease;
+
+}
+
+.focus-body button:hover{
+    background-color: rgba(255, 255, 255, 0.829);
+    color:rgba(0, 0, 0, 0.499);
+}
+
+.focus-body input{
+    margin: 50px;
+}
+
+#icon-buttons {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size:50px;
+    
+
+}
+
+#birdIcon:hover {
+    font-size: 60px;
+    color:lightskyblue;
+
+}
+
+#rainIcon:hover {
+    font-size: 60px;
+    color:lightskyblue;
+
+}
+#fireIcon:hover {
+    font-size: 60px;
+    color:lightskyblue;
+
+}
+
+
+
